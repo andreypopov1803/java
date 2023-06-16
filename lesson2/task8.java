@@ -29,7 +29,7 @@ public class task8 {
         // со стрингбилдером
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < N / 2; i++) {
-            sb.append(s1); 
+            sb.append(s1);
             sb.append(s2);
         }
         System.out.println(sb);
