@@ -18,12 +18,20 @@ public class task8 {
         if (N % 2 == 0) {
             System.out.println("Число четное");
             for (int i = 0; i < N / 2; i++) {
-                System.out.println(s1);
-                System.out.println(s2);
+                System.out.print(s1);
+                System.out.print(s2);
             }
         }
         else{System.out.println("Вы ввели нечетное число");
         }
         in.close();
+        System.out.println();
+        // со стрингбилдером
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < N / 2; i++) {
+            sb.append(s1); 
+            sb.append(s2);
+        }
+        System.out.println(sb);
     }
 }
