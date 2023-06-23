@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class task10 {
+public class home_work_task10 {
     public static void main(String[] args) {
         Map<String, String> params1 = new HashMap<String,String>();
         params1.put("name","Ivanov");
